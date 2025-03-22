@@ -1,0 +1,163 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.heading{
+    color: darkred;
+}
+.container{
+    height: auto;
+    width: 600px;
+    border: 2px solid gray;
+    box-shadow: 0px 0px 8px gray;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+form .all-inputs{
+    width: 600px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    display: block;
+}
+.items{
+    justify-self: center;
+    align-self: center;
+} */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Body and Font Settings */
+body {
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+.heading h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input Fields Styling */
+.items {
+    margin-bottom: 15px;
+}
+
+.items label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.items input,
+.items select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.items input:focus,
+.items select:focus {
+    border-color: #6c5ce7;
+}
+
+/* Button Styling */
+button {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4e3ad7;
+}
+
+/* Optional Styling for File Input */
+.items input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .heading h1 {
+        font-size: 1.6em;
+    }
+
+    .items {
+        margin-bottom: 12px;
+    }
+
+    .items input,
+    .items select {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+}

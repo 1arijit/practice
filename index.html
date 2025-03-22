@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Application Form (New)</h1>
+        </div>
+        <div class="details">
+            <form action="">
+                <div class="all-inputs">
+                    <div class="items" id="first_name">
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" placeholder="Enter first name" required>
+                    </div>
+                    <div class="items" id="last_name">
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name" placeholder="Enter last name" required>
+                    </div>
+                    <div class="items" id="mail">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="eg-abc@gmail.com" required>
+                    </div>
+                    <div class="items" id="role">
+                        <label for="job-role">Select job role</label>
+                        <select name="j-role" id="job-role" required>
+                            <option value="Junior engineer">Junior engineer</option>
+                            <option value="senior engineer">senior engineer</option>
+                            <option value="analyst">analyst</option>
+                            <option value="receptionist">receptionist</option>
+                        </select>
+                    </div>
+                    <div class="items" id="city">
+                        <label for="town">Home city</label>
+                        <input type="text" id="town" placeholder="Enter your city">
+                    </div>
+                    <div class="items" id="mobile">
+                        <label for="phone">Phone number</label>
+                        <input type="number" id="phone" placeholder="1234567890">
+                    </div>
+                    <div class="items" id="date">
+                        <label for="datee">Enter date</label>
+                        <input type="datee" id="datee">
+                    </div>
+                    <div class="items" id="file">
+                        <label for="cv">Upload CV</label>
+                        <input type="file">
+                    </div>
+                    <div class="items" id="button">
+                        <button type="submit">Apply now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
